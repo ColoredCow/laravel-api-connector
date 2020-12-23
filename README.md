@@ -36,9 +36,5 @@ composer require coloredcow/laravel-api-connector
     1. Post Call (No need to add API base URL)
     ```
     $data = array(...); // API payload
-    $this->makeApiCall(
-        config('your-end-point'),
-        'post',
-        $data
-    );
+    $this->makeApiCall('your-end-point', 'post', $data);
     ```

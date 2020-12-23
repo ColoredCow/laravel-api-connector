@@ -25,15 +25,6 @@ class APIConnectorServiceProvider extends ServiceProvider
      */
     protected function registerMigrations()
     {
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-
-        $this->publishes([
-            __DIR__ . '/../config/apiconnector.php' => config_path('apiconnector.php'),
-        ], 'apiconnector-config');
-
-        // $this->publishes([
-        //     __DIR__ . '/../database/migrations/create_randomables_table.php' => database_path('migrations/' . date('Y_m_d_His', time()) . '_create_randomables_table.php'),
-        // ], 'randomable-migrations');
-
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
     }
 }
