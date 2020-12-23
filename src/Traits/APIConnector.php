@@ -18,7 +18,7 @@ trait APIConnector
 
     function initApi()
     {
-        $this->apiConnectorData = Connector::find(1);
+        $this->apiConnectorData = Connector::latest();
         $this->accessToken = $this->apiConnectorData->access_token;
         $this->tokenType = $this->apiConnectorData->token_type;
         $this->expiryAt = $this->apiConnectorData->expiry_at;

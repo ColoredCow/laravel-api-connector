@@ -18,5 +18,12 @@
         "psr-4": {
             "ColoredCow\\LaravelAPIConnector\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ColoredCow\\LaravelAPIConnector\\APIConnectorServiceProvider"
+            ]
+        }
     }
 }
