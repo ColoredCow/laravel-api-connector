@@ -1,0 +1,22 @@
+{
+    "name": "coloredcow/laravel-api-connector",
+    "description": "API connector for Laravel. Use it to consume external API from your Laravel project",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "satendra-sr",
+            "email": "satendra@coloredcow.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ColoredCow\\LaravelAPIConnector\\": "src/"
+        }
+    }
+}
