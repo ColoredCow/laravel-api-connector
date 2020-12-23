@@ -4,7 +4,8 @@ Package to consume external API in your Laravel projects.
 
 ## Prerequisite
 1. This package requires a basic understanding of [Guzzle http](https://packagist.org/packages/guzzlehttp/guzzle)
-2. PHP >= 7.3
+1. guzzlehttp/guzzle: >= 7.2
+1. PHP: >= 7.3
 
 ## Installation
 The recommended way to install this package through Composer.
